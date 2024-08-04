@@ -1,9 +1,9 @@
 import Link from 'next/link';
 
-export default function RootPage({ children }: { children: React.ReactNode }) {
+export default function Home() {
   return (
       <p>
-        Go to <Link href="/transactions">Transactions</Link>
+        Go to <Link href="transactions">Transactions</Link>
       </p>
   );
 }

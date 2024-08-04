@@ -2,7 +2,7 @@
 
 import TransactionTable from "@/components/TransactionTable";
 
-export default function TransactionsPage({ children }: { children: React.ReactNode }) {
+export default function TransactionsPage() {
   return (
     <TransactionTable />
   );

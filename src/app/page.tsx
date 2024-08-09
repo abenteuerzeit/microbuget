@@ -1,9 +1,6 @@
-import Link from 'next/link';
+// src/app/page.tsx
+import BudgetDashboard from '@/components/BudgetDashboard';
 
 export default function Home() {
-  return (
-      <p>
-        Go to <Link href="transactions">Transactions</Link>
-      </p>
-  );
+  return <BudgetDashboard />;
 }
